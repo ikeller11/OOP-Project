@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alex Johnson",
+      "age": 22,
+      "gender": "male",
+      "weight_kg": 82,
+      "height_cm": 180,
+      "activity_level": "moderately_active",
+      "goal": "maintain",
+      "estimated_tdee": 2800,
+      "calorie_target": 2800
+    },
+    {
+      "id": 2,
+      "name": "Morgan Lee",
+      "age": 27,
+      "gender": "female",
+      "weight_kg": 63,
+      "height_cm": 165,
+      "activity_level": "lightly_active",
+      "goal": "cutting",
+      "estimated_tdee": 2100,
+      "calorie_target": 1800
+    },
+    {
+      "id": 3,
+      "name": "Jordan Rivera",
+      "age": 31,
+      "gender": "male",
+      "weight_kg": 95,
+      "height_cm": 188,
+      "activity_level": "very_active",
+      "goal": "bulking",
+      "estimated_tdee": 3200,
+      "calorie_target": 3600
+    }
+  ]
+}
