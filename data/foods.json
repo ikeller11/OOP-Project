@@ -243,7 +243,7 @@
         {
             "id": 25,
             "fdc_id": 0,
-            "name": "",
+            "name": "NULL",
             "serving_size_g": 100,
             "calories": 0,
             "protein_g": 0,
@@ -273,7 +273,7 @@
         {
             "id": 28,
             "fdc_id": 0,
-            "name": "",
+            "name": "NULL",
             "serving_size_g": 100,
             "calories": 0,
             "protein_g": 0,
