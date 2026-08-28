@@ -1,0 +1,120 @@
+Project Documentation
+Reed Smith
+Pablo Paz
+Isaac Keller
+Braxton Hibbs
+Program Name: MacTrack
+Description:
+MacTrack is a nutritional tracking application designed to help users better understand and manage their daily
+nutrition. The application combines meal planning, food tracking, calorie and macronutrient monitoring, and a Total
+Daily Energy Expenditure (TDEE) calculator into one program.
+Users can search for food items and view nutritional information such as calories, protein, carbohydrates, and fat.
+Foods can be combined into meals, allowing users to plan meals in advance and calculate the nutritional totals for
+each meal. Users can also log the foods and meals they consume throughout the day to track their total calorie and
+macronutrient intake.
+The application will include a TDEE calculator that estimates the number of calories a user burns each day based on
+information they provide. Using this estimate, MacTrack can provide calorie targets for goals such as maintaining
+weight, bulking, or cutting.
+Purpose:
+The purpose of MacTrack is to provide users with a simple way to manage and understand their nutrition. The
+application helps users estimate their daily calorie needs, establish nutritional goals, plan meals, access nutritional
+information, and track the calories and macronutrients they consume throughout the day. By combining these
+features into one application, MacTrack provides a centralized tool for meal planning and nutritional tracking.
+High-Level Features:
+Meal Prepping and Planning
+● Create meals using individual food items.
+● Specify serving sizes or quantities.
+● Calculate the total calories, protein, carbohydrates, and fat for each meal.
+Macro and Calorie Tracking
+● Log foods and meals consumed throughout the day.
+● Track total daily calories.
+● Track daily protein, carbohydrate, and fat intake.
+TDEE Calculator
+● Estimate a user's Total Daily Energy Expenditure.
+● Provide calorie targets for maintaining, bulking, or cutting.
+Food Information Tracker
+● Search for individual food items.
+● Display nutritional information.
+● Integrate with the USDA FoodData Central API for access to food data.
+Small Excerpt of Data:
+Foods.json
+{
+ "foods": [
+ {
+ "id": 1,
+ "fdc_id": 331960,
+ "name": "Chicken Breast",
+ "serving_size_g": 100,
+ "calories": 166,
+ "protein_g": 32.1,
+ "carbohydrates_g": 0,
+ "fat_g": 3.24
+ }
+ ]
+}
+Stores individual food items and their nutritional values per serving. Each food has a unique application ID and a
+matching FoodData Central (fdc_id) for pulling data from the USDA API.
+Meals.json
+{
+ "id": 1,
+ "name": "Chicken and Rice",
+ "foods": [
+ {
+ "food_id": 1,
+ "quantity_g": 200
+ },
+ {
+ "food_id": 2,
+ "quantity_g": 150
+ }
+ ]
+}
+Combines individual foods (referenced by food_id) into a single meal with specified quantities, used to calculate
+total nutrition for the meal.
+MealPlans.json
+{
+ "id": 1,
+ "date": "2026-08-27",
+ "planned_meals": [
+ {
+ "meal_id": 1,
+ "meal_time": "12:00"
+ }
+ ]
+}
+Schedules meals (referenced by meal_id) to specific dates and times, allowing users to plan their eating in advance.
+DailyLogs.json
+{
+ "id": 1,
+ "date": "2026-08-27",
+ "entries": [
+ {
+ "type": "meal",
+ "meal_id": 1,
+ "meal_type": "lunch"
+ }
+ ]
+}
+Records what a user actually ate on a given day, referencing meals by meal_id, and is used to total daily calorie and
+macronutrient intake.
+UserInfo.json
+{
+ "id": 1,
+ "name": "John Smith",
+ "age": 22,
+ "gender": "male",
+ "weight_kg": 82,
+ "height_cm": 180,
+ "activity_level": "moderately_active",
+ "goal": "maintain",
+ "estimated_tdee": 2800,
+ "calorie_target": 2800
+}
+Stores the information needed to calculate a user's TDEE and calorie target, such as age, weight, height, and activity
+level, along with their nutrition goal.
+Description of the Example Data:
+MacTrack uses five main data types to store and organize information for the application. These data types include
+foods, meals, meal plans, daily logs, and user profiles. Each data type is stored in its own JSON file and serves a
+specific purpose within the program. The data types are connected through unique IDs, allowing foods to be used in
+meals, meals to be added to meal plans and daily logs, and user profiles to provide information for calculating TDEE
+and nutritional goals.
