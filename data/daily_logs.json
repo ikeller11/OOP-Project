@@ -1,0 +1,43 @@
+{
+  "daily_logs": [
+    {
+      "id": 1,
+      "date": "2026-08-27",
+      "entries": [
+        { "type": "meal", "meal_id": 7, "meal_type": "breakfast" },
+        { "type": "meal", "meal_id": 1, "meal_type": "lunch" },
+        { "type": "meal", "meal_id": 4, "meal_type": "dinner" },
+        { "type": "food", "food_id": 13, "quantity_g": 28, "meal_type": "snack" }
+      ]
+    },
+    {
+      "id": 2,
+      "date": "2026-08-28",
+      "entries": [
+        { "type": "meal", "meal_id": 3, "meal_type": "breakfast" },
+        { "type": "meal", "meal_id": 5, "meal_type": "lunch" },
+        { "type": "meal", "meal_id": 6, "meal_type": "snack" },
+        { "type": "food", "food_id": 15, "quantity_g": 32, "meal_type": "dinner" }
+      ]
+    },
+    {
+      "id": 3,
+      "date": "2026-08-29",
+      "entries": [
+        { "type": "meal", "meal_id": 2, "meal_type": "breakfast" },
+        { "type": "meal", "meal_id": 1, "meal_type": "lunch" },
+        { "type": "food", "food_id": 11, "quantity_g": 170, "meal_type": "snack" },
+        { "type": "meal", "meal_id": 4, "meal_type": "dinner" }
+      ]
+    },
+    {
+      "id": 4,
+      "date": "2026-08-30",
+      "entries": [
+        { "type": "meal", "meal_id": 7, "meal_type": "breakfast" },
+        { "type": "meal", "meal_id": 5, "meal_type": "lunch" },
+        { "type": "meal", "meal_id": 6, "meal_type": "dinner" }
+      ]
+    }
+  ]
+}
