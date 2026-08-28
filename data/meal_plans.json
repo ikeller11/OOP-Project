@@ -1,0 +1,48 @@
+{
+  "meal_plans": [
+    {
+      "id": 1,
+      "date": "2026-08-27",
+      "planned_meals": [
+        { "meal_id": 7, "meal_time": "08:00" },
+        { "meal_id": 1, "meal_time": "12:30" },
+        { "meal_id": 4, "meal_time": "18:30" }
+      ]
+    },
+    {
+      "id": 2,
+      "date": "2026-08-28",
+      "planned_meals": [
+        { "meal_id": 3, "meal_time": "07:45" },
+        { "meal_id": 5, "meal_time": "13:00" },
+        { "meal_id": 6, "meal_time": "16:00" }
+      ]
+    },
+    {
+      "id": 3,
+      "date": "2026-08-29",
+      "planned_meals": [
+        { "meal_id": 2, "meal_time": "08:15" },
+        { "meal_id": 1, "meal_time": "12:00" },
+        { "meal_id": 4, "meal_time": "19:00" }
+      ]
+    },
+    {
+      "id": 4,
+      "date": "2026-08-30",
+      "planned_meals": [
+        { "meal_id": 7, "meal_time": "08:00" },
+        { "meal_id": 5, "meal_time": "12:45" },
+        { "meal_id": 6, "meal_time": "15:30" }
+      ]
+    },
+    {
+      "id": 5,
+      "date": "2026-08-31",
+      "planned_meals": [
+        { "meal_id": 3, "meal_time": "09:00" },
+        { "meal_id": 4, "meal_time": "13:30" }
+      ]
+    }
+  ]
+}
