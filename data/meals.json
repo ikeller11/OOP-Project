@@ -1,0 +1,66 @@
+{
+  "meals": [
+    {
+      "id": 1,
+      "name": "Chicken and Rice",
+      "foods": [
+        { "food_id": 1, "quantity_g": 200 },
+        { "food_id": 3, "quantity_g": 150 },
+        { "food_id": 4, "quantity_g": 100 }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "PB Banana Toast",
+      "foods": [
+        { "food_id": 6, "quantity_g": 64 },
+        { "food_id": 7, "quantity_g": 32 },
+        { "food_id": 8, "quantity_g": 118 }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Protein Oatmeal",
+      "foods": [
+        { "food_id": 9, "quantity_g": 40 },
+        { "food_id": 15, "quantity_g": 32 },
+        { "food_id": 8, "quantity_g": 118 }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Salmon and Sweet Potato",
+      "foods": [
+        { "food_id": 10, "quantity_g": 150 },
+        { "food_id": 12, "quantity_g": 130 },
+        { "food_id": 4, "quantity_g": 100 }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Beef and Rice Bowl",
+      "foods": [
+        { "food_id": 2, "quantity_g": 150 },
+        { "food_id": 3, "quantity_g": 150 },
+        { "food_id": 14, "quantity_g": 50 }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Greek Yogurt Snack",
+      "foods": [
+        { "food_id": 11, "quantity_g": 170 },
+        { "food_id": 13, "quantity_g": 28 }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Egg Breakfast",
+      "foods": [
+        { "food_id": 5, "quantity_g": 100 },
+        { "food_id": 6, "quantity_g": 32 },
+        { "food_id": 14, "quantity_g": 50 }
+      ]
+    }
+  ]
+}
